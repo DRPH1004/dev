@@ -56,3 +56,6 @@
 // let cadena="ABCDEFGHIJKLMNÑOPQRSTUVWXYZ"
 
 // document.writeln(resultado);
+
+// hola hijo de tu puta madre
+ 
