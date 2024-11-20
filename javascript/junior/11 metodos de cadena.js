@@ -53,6 +53,6 @@
 
 
 //substring() nos retorna un pedazo de cadena que nosotros hallamos seleccionado .substring(0,5) nos devuelve del 0 al 5 sin contar lo que haya en la posicion 5
-let cadena="ABCDEFGHIJKLMNÑOPQRSTUVWXYZ"
+// let cadena="ABCDEFGHIJKLMNÑOPQRSTUVWXYZ"
 
-document.writeln(resultado);
+// document.writeln(resultado);
