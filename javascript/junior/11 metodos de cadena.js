@@ -64,7 +64,7 @@
 // let resultado = cadena.toUpperCase();       // lo convierte a mayusculas
 
 
-// el metodo .trim() elimina los espacios al principio y al final de una cadena, si solo quieres al principio o al final
+// el metodo trim() elimina los espacios al principio y al final de una cadena, si solo quieres al principio o al final
 // tienes el metodo trimStart y trimEnd()
 // let cadena = "                  ABCDefghIJKLMNñopqRSTUvwxyZ           ";
 // let resultado = cadena.trim();               // todos los espacios
@@ -72,7 +72,7 @@
 // let resultado = cadena.trimEnd();            // todos los espacios al final
 
 
-// el metodo .toString() convierte en cadena lo que le pongas
+// el metodo toString() convierte en cadena lo que le pongas
 // let cadena = 5;
 // let resultado = 2 + (cadena.toString());
 
