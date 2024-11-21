@@ -1,13 +1,13 @@
-// //concat() junta dos o mas cadenas
+// concat() junta dos o mas cadenas
 // let cadena1="esto es una cadena de ejemplo ";
 // let cadena2="esto se va a concatenar ";
 // let resultado=cadena1.concat(cadena2);
 
 
 
-//buscar cadenas y devolvernos un valor
+// buscar cadenas y devolvernos un valor
 
-//startsWith() y endWith verifican fi una cadena empiza o acaba con los caracteres de otra cadena devuelve tru si es verdadero o false
+// startsWith() y endWith verifican fi una cadena empiza o acaba con los caracteres de otra cadena devuelve tru si es verdadero o false
 // let cadena1="esto es una cadena de ejemplo ";
 // let cadena2="ejemplo ";
 // let resultado=cadena1.startsWith(cadena2);
@@ -31,21 +31,21 @@
 
 
 
-//modificar la cadena 
+// modificar la cadena 
 
 
-//padStart() y padEnd() rellena la cadena que le des con los caracteres que quieras dependiendo si la quieres al principio o al final
+// padStart() y padEnd() rellena la cadena que le des con los caracteres que quieras dependiendo si la quieres al principio o al final
 //  let cadena1="hola"
 //  let resultado=cadena1.padStart(10,"puto")
 //  let resultado=cadena1.padEnd(10,"puto")
 
 
-//repeat() devuelve la misma cadena pero la cantidad de veces deaseada .repeat(10)
+// repeat() devuelve la misma cadena pero la cantidad de veces deaseada .repeat(10)
 // let cad="holis"
 // let resultado=cad.repeat(10)
 
 
-//split() divide la cadena como la pidamos y la combierte en un array
+// split() divide la cadena como la pidamos y la combierte en un array
 // let cadena="hola como estas"
 // let resultado=cadena.split(" ")
 // let cadena="hola,como,estas"
@@ -59,8 +59,23 @@
 
 
 // toLowerCase() y toUpperCase convierten las cadenas a minuscula y mayuscula respectivamente
-// let cadena = "ABCDEFGHIJKLMNÑOPQRSTUVWXYZ"
-// let resultado = cadena.substring(0,2)
+// let cadena = "ABCDefghIJKLMNñopqRSTUvwxyZ";
+// let resultado = cadena.toLowerCase();        // lo convierte a minusculas
+// let resultado = cadena.toUpperCase();       // lo convierte a mayusculas
 
-document.writeln(resultado); 
+
+// el metodo .trim() elimina los espacios al principio y al final de una cadena, si solo quieres al principio o al final
+// tienes el metodo trimStart y trimEnd()
+// let cadena = "                  ABCDefghIJKLMNñopqRSTUvwxyZ           ";
+// let resultado = cadena.trim();               // todos los espacios
+// let resultado = cadena.trimStart();          // todos los espacios al principio
+// let resultado = cadena.trimEnd();            // todos los espacios al final
+
+
+// el metodo .toString() convierte en cadena lo que le pongas
+let cadena = 5;
+let resultado = 2 + (cadena.toString());
+
+
+document.writeln(resultado);
  
