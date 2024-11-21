@@ -73,9 +73,9 @@
 
 
 // el metodo .toString() convierte en cadena lo que le pongas
-let cadena = 5;
-let resultado = 2 + (cadena.toString());
+// let cadena = 5;
+// let resultado = 2 + (cadena.toString());
 
 
-document.writeln(resultado);
+// document.writeln(resultado);
  
