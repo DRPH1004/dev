@@ -52,8 +52,15 @@
 // let resultado=cadena.split(",")
 
 
-//substring() nos retorna un pedazo de cadena que nosotros hallamos seleccionado .substring(0,5) nos devuelve del 0 al 5 sin contar lo que haya en la posicion 5
-// let cadena="ABCDEFGHIJKLMNÑOPQRSTUVWXYZ"
+// substring() nos retorna un pedazo de cadena que nosotros hallamos seleccionado .substring(0,5) nos devuelve del 0 al 5 sin contar 
+// lo que haya en la posicion 5
+// let cadena = "ABCDEFGHIJKLMNÑOPQRSTUVWXYZ"
+// let resultado = cadena.substring(0,2)
 
-// document.writeln(resultado);
+
+// toLowerCase() y toUpperCase convierten las cadenas a minuscula y mayuscula respectivamente
+// let cadena = "ABCDEFGHIJKLMNÑOPQRSTUVWXYZ"
+// let resultado = cadena.substring(0,2)
+
+document.writeln(resultado); 
  
