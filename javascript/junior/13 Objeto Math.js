@@ -15,7 +15,14 @@
                    
 // random() devuelve un numero aleatorio entre 0 y 1
 // let resultado=Math.random();
-      
+
+// round(x) redondea x al numero entero mas cercano
+// let resultado=Math.round(4.5);  //5
+// let resultado=Math.round(4.4);  //4
+
+
+
+
 
 
 
